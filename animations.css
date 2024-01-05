@@ -1,0 +1,54 @@
+@keyframes animation1 {
+    0% {
+      opacity: 0;
+      
+    }
+ 
+      100% {
+        opacity: 1;
+     
+      }
+  }
+
+  @keyframes animation2 {
+    0% {
+    
+      transform: translateY(-100%);
+    }
+
+    100% {
+   
+      transform: translateY();
+    }
+  }
+   
+  @keyframes animation3 {
+    0% {
+    
+      transform: translateX(-100%);
+    }
+
+    100% {
+   
+      transform: translateX();
+    }
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+      border-right: 2px solid #000000;
+    }
+    to {
+      width: 100%;
+      border: none;
+    }
+  }
+  
+  .typewriter-text {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(40000) infinite;
+  
+  }
+  
+  

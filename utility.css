@@ -1,0 +1,36 @@
+.fontsize1 {
+font-size: 4vw;
+text-align: center;
+font-family: 'Lato', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+.underline {
+text-decoration: underline;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+.button {
+    color: white;
+    background: #ffde59;
+    padding: 1vw;
+    font-size: 2vw;
+    border: 1px solid black;
+    border-radius: 1vw;
+}
+.button:hover {
+    color: white;
+    background: #e3be2a;
+    padding: 1vw;
+    font-size: 2vw;
+    border: 1px solid black;
+    border-radius: 1vw;
+}
